@@ -143,8 +143,7 @@ export const query = graphql`
       days
       images {
         fluid {
-          # ...GatsbyContentfulFluid
-          ...GatsbyContentfulFluid_tracedSVG
+          ...GatsbyContentfulFluid
           src
         }
       }

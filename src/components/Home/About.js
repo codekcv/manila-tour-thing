@@ -9,7 +9,7 @@ const getAbout = graphql`
     aboutImage: file(relativePath: { eq: "manila.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid
         }
       }
     }

@@ -11,7 +11,7 @@ const getImage = graphql`
     file(relativePath: { eq: "manila.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid_tracedSVG
+          ...GatsbyImageSharpFluid
         }
       }
     }
